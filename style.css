@@ -20,9 +20,8 @@
     border-bottom: 2px solid #412567;
 }
 .nav-bar p {
-    font-size: 2rem;
+    font-size: 60px;
     font-weight: bold;
-    background: ;
 }
 .nav-bar p span {
     color:rgb(185, 15, 207);
@@ -379,6 +378,56 @@
 }
 
 
+#footer {
+  width: auto;
+  min-width: 260px;
+  background-image: url(image/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 15px;
+}
+.footer-content {
+  text-align: center;
+  color: white;
+}
+.footer-logo {
+  font-size: 80px;
+  font-weight: 800px;
+  margin-bottom: 20px;
+}
+.footer-logo span {
+  color: #ff4ecd;
+}
+.footer-links {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.footer-links img {
+  width: 16px;
+}
+.fotter-copyright {
+  font-size: 13px;
+  color: #FAFAFA;
+}
+
+
 
 
 
@@ -403,7 +452,6 @@
     .nav-bar {
     background-color: #1A0B2E;
     color: white;
-    display: fle
     align-items: center;
     padding: 20px 50px;
     }
@@ -538,35 +586,34 @@
 .host-section {
   padding: 70px 16px;
 }
-
 .section-title {
   font-size: 26px;
   margin-bottom: 40px;
 }
-
 .host-card {
   grid-template-columns: 1fr;
   text-align: center;
   padding: 30px 20px;
 }
-
 .host-image {
   margin: 0 auto;
   width: 140px;
   height: 140px;
 }
-
 .host-info h3 {
   font-size: 20px;
 }
-
 .host-info p {
   font-size: 13px;
 }
-
 .links {
   justify-content: center;
 }
+
+
+
+
+
     
 
 }
