@@ -440,9 +440,13 @@
 
 
 @media screen and (max-width: 576px) {
+
     .nav-bar ul {
         display: none;
     }
+    .nav-bar p {
+    font-size: 40px;
+}
     .nav-btn {
         display: none;
     }
@@ -611,10 +615,19 @@
 }
 
 
+.footer-logo {
+  font-size: 52px;
+}
+.footer-links {
+  gap: 14px;
+}
+.footer-links a {
+  font-size: 13px;
+}
+.footer-copy {
+  font-size: 12px;
+}
 
-
-
-    
 
 }
 
