@@ -205,6 +205,64 @@
 }
 
 
+.techwave {
+  text-align: center;
+  background-color: #230E3D;
+  color: white;
+  padding: 90px 200px;
+}
+.techwave h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 50px;
+
+}
+.techwave-container>* {
+  background-color: #351165;
+  padding: 30px 40px;
+  text-align: left;
+  border: 2px solid re;
+  border-radius: 40px;
+}
+.techwave-container img {
+  margin-bottom: 30px;
+}
+.techwave-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.techwave-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.techwave-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "box-1  box-2  box-2"
+  "box-1  box-3  box-3"
+  "box-4  box-4  box-5";
+}
+.box-1 {
+  grid-area: box-1;
+}
+.box-2 {
+  grid-area: box-2;
+}
+.box-3 {
+  grid-area: box-3;
+}
+.box-4 {
+  grid-area: box-4;
+}
+.box-5 {
+  grid-area: box-5;
+}
+
+
 
 
 
@@ -257,6 +315,28 @@
   .stat-card span {
     font-size: 11px;
   }
+  .techwave-container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "box-1 "
+  "box-2 "
+  "box-3 "
+  "box-4 "
+  "box-5 " ;
+}
+.techwave {
+  padding: 0px 0px;
+}
+.techwave-container>* {
+  background-color: #351165;
+  padding: 20px 20px;
+  text-align: left;
+  border-radius: 40px;
+  margin: 0px 20px;
+}
     
 
 }
